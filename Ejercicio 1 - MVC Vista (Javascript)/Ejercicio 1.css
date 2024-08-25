@@ -1,0 +1,10 @@
+/*transicion del color*/
+#encabezado {
+    transition: color; 
+}
+
+/*hover es un pseudo-clase que se usa para aplicar estilos a un elemento cuando el cursor del ratón pasa sobre él.*/
+/* Cambia el color del texto a rojo cuando el cursor está sobre el encabezado */
+#encabezado:hover {
+    color: red;
+}

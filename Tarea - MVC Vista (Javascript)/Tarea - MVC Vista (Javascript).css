@@ -1,0 +1,18 @@
+.contador-caracteres {
+    font-size: 0.9em;
+    color: gray;
+    text-align: right;
+}
+
+/* Añadir CSS para manejar texto largo */
+.list-group-item span {
+    white-space: pre-wrap; /* Mantiene los saltos de línea */
+    word-wrap: break-word; /* Rompe las palabras largas */
+    overflow-wrap: break-word; /* Soporte adicional para la ruptura de palabras */
+    word-break: break-word; /* Asegura que las palabras se rompan si es necesario */
+}
+
+.list-group-item {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}

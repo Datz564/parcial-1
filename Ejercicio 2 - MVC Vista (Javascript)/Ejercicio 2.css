@@ -1,0 +1,4 @@
+       /* Cambiar el cursor para indicar que se puede hacer doble clic */
+       .list-group-item {
+            cursor: pointer; 
+        }
